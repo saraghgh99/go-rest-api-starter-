@@ -8,6 +8,11 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
+// @Summary Get all events
+// @Description Retrieves a list of all available events
+// @Produce json
+// @Success 200 {string} string "List of events"
+// @Router /events [get]
 func getEvents(context *gin.Context) {
 	events, err := models.GetAllEvents()
 	if err != nil {

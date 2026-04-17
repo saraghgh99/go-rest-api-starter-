@@ -6,6 +6,12 @@ import (
     "github.com/gin-gonic/gin"
 )
 
+// @title EventGo API
+// @version 1.0
+// @description This is a REST API for an Event Management System.
+// @host localhost:8080
+// @BasePath /
+
 func main() {
 	db.InitDB()
 	server := gin.Default()
