@@ -1,5 +1,5 @@
 basePath: /
-host: localhost:8080
+host: go-rest-api-starter.onrender.com
 info:
   contact: {}
   description: This is a REST API for an Event Management System.

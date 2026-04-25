@@ -9,7 +9,7 @@ import (
 // @title EventGo API
 // @version 1.0
 // @description This is a REST API for an Event Management System.
-// @host localhost:8080
+// @host go-rest-api-starter.onrender.com
 // @BasePath /
 
 func main() {
